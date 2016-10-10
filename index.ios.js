@@ -22,6 +22,9 @@ class ebook extends Component {
         <Text style={styles.instructions}>
           小数阅读器，侧边栏
         </Text>
+        <ListView>
+          <Text>一行文本</Text>
+        </ListView>
       </View>
     );
   }
