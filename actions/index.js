@@ -1,8 +1,8 @@
-function updateBooks (data) {
-  return {
-    type: 'UPDATEBOOKS',
-    data: data
-  }
+function updateBooks(data) {
+    return {
+        type: 'UPDATEBOOKS',
+        data: data
+    }
 }
 
 export function fetchBooks(articleId) {
@@ -16,3 +16,7 @@ export function fetchBooks(articleId) {
         });
     };
 }
+
+export default {
+    fetchBooks: fetchBooks
+};

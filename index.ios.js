@@ -10,12 +10,20 @@ import {fetchBooks} from './actions';
 import {Provider} from 'react-redux';
 import {applyMiddleware, createStore} from 'redux';
 import reducer from './reducers/';
-import BookList from './pages/'
+import BookList from './pages/';
 
-const store = createStore(reducer);
+
+import thunk from 'redux-thunk';
+import promise from 'redux-promise';
+import createLogger from 'redux-logger';
+
+const logger = createLogger();
+const store = createStore(reducer, applyMiddleware());
+
+store.dispatch(fetchBooks());
+
 
 class ebook extends Component {
-
     render() {
         return (
             <Provider store={store}>

@@ -106,10 +106,6 @@ receiveComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactRec
 ReactReconciler.receiveComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^  },$/;"	method	line:86
 performUpdateIfNecessary	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^  performUpdateIfNecessary: function (internalInstance, transaction, updateBatchNumber) {$/;"	function	line:146
 ReactReconciler.performUpdateIfNecessary	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^  },$/;"	method	line:137
-render	/Users/gaotianyi/showcase/ebook/index.ios.js	/^    render() {$/;"	function	line:19
-updateBooks	/Users/gaotianyi/showcase/ebook/actions/index.js	/^function updateBooks (data) {$/;"	function	line:1
-updateBooks	/Users/gaotianyi/showcase/ebook/actions/index.js	/^function updateBooks (data) {$/;"	function	line:1
-fetchBooks	/Users/gaotianyi/showcase/ebook/actions/index.js	/^export function fetchBooks(articleId) {$/;"	function	line:8
 constructor	/Users/gaotianyi/showcase/ebook/pages/ios/list.js	/^    constructor(props) {$/;"	function	line:15
 state.dataSource	/Users/gaotianyi/showcase/ebook/pages/ios/list.js	/^        this.state = {$/;"	property	line:20
 componentWillMount	/Users/gaotianyi/showcase/ebook/pages/ios/list.js	/^    componentWillMount() {$/;"	function	line:25
@@ -120,8 +116,14 @@ stateMapToProps	/Users/gaotianyi/showcase/ebook/pages/ios/list.js	/^function sta
 booksReducer	/Users/gaotianyi/showcase/ebook/reducers/books.js	/^function booksReducer(state = initialState, action) {$/;"	function	line:3
 switch	/Users/gaotianyi/showcase/ebook/reducers/books.js	/^    switch(action.type) {$/;"	function	line:4
 booksReducer	/Users/gaotianyi/showcase/ebook/reducers/books.js	/^function booksReducer(state = initialState, action) {$/;"	function	line:3
+updateBooks	/Users/gaotianyi/showcase/ebook/actions/index.js	/^function updateBooks(data) {$/;"	function	line:1
+updateBooks	/Users/gaotianyi/showcase/ebook/actions/index.js	/^function updateBooks(data) {$/;"	function	line:1
+fetchBooks	/Users/gaotianyi/showcase/ebook/actions/index.js	/^export function fetchBooks(articleId) {$/;"	function	line:8
+render	/Users/gaotianyi/showcase/ebook/index.ios.js	/^    render() {$/;"	function	line:27
 componentWillMount	/Users/gaotianyi/showcase/ebook/pages/index.js	/^    componentWillMount() {$/;"	function	line:15
 renderList	/Users/gaotianyi/showcase/ebook/pages/index.js	/^    renderList(rowData) {$/;"	function	line:18
 render	/Users/gaotianyi/showcase/ebook/pages/index.js	/^    render() {$/;"	function	line:21
 stateMapToProps	/Users/gaotianyi/showcase/ebook/pages/index.js	/^function stateMapToProps(state) {$/;"	function	line:102
 stateMapToProps	/Users/gaotianyi/showcase/ebook/pages/index.js	/^function stateMapToProps(state) {$/;"	function	line:102
+mapDispatchToProps	/Users/gaotianyi/showcase/ebook/pages/index.js	/^function mapDispatchToProps(dispatch) {$/;"	function	line:106
+mapDispatchToProps	/Users/gaotianyi/showcase/ebook/pages/index.js	/^function mapDispatchToProps(dispatch) {$/;"	function	line:106

@@ -8,23 +8,23 @@ import React, {Component} from 'react';
 import {AppRegistry, StyleSheet, Text, ListView, View} from 'react-native';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import {fetchBooks} from '../actions';
+import actions from '../actions';
 
 class BookList extends Component {
 
     componentWillMount() {
-        fetchBooks();
+        //this.props.actions.fetchBooks();
     }
     renderList(rowData) {
         return <Text>{rowData.BookName}</Text>
     }
     render() {
-        let {books} = this.props;
+        let {books, actions} = this.props;
+        // actions.fetchBooks();
         let ds = new ListView.DataSource({
             rowHasChanged: (r1, r2) => r1 !== r2
         });
         dataSource = ds.cloneWithRows(books);
-
         return (
             <View style={styles.container}>
                 <ListView style={styles.main} dataSource={dataSource} renderRow={(rowData) => this.renderList(rowData)}/>
@@ -103,4 +103,10 @@ function stateMapToProps(state) {
     return {books: state.books};
 }
 
-export default connect(stateMapToProps)(BookList);
+function mapDispatchToProps(dispatch) {
+    return {
+        actions: bindActionCreators(actions, dispatch)
+    }
+};
+
+export default connect(stateMapToProps, mapDispatchToProps)(BookList);
