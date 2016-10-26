@@ -13,14 +13,13 @@ import actions from '../actions';
 class BookList extends Component {
 
     componentWillMount() {
-        //this.props.actions.fetchBooks();
+        this.props.actions.fetchBooks();
     }
     renderList(rowData) {
         return <Text>{rowData.BookName}</Text>
     }
     render() {
-        let {books, actions} = this.props;
-        // actions.fetchBooks();
+        let {books} = this.props;
         let ds = new ListView.DataSource({
             rowHasChanged: (r1, r2) => r1 !== r2
         });

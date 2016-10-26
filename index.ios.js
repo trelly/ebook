@@ -18,10 +18,8 @@ import promise from 'redux-promise';
 import createLogger from 'redux-logger';
 
 const logger = createLogger();
-const store = createStore(reducer, applyMiddleware());
-
-store.dispatch(fetchBooks());
-
+const store = createStore(reducer, applyMiddleware(thunk, promise, logger));
+// const store = createStore(reducer);
 
 class ebook extends Component {
     render() {
