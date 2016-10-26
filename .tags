@@ -1,0 +1,127 @@
+_prodInvariant	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var _prodInvariant = require('.\/reactProdInvariant'),$/;"	variable	line:14
+ReactComponentEnvironment	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var ReactComponentEnvironment = require('.\/ReactComponentEnvironment');$/;"	variable	line:17
+ReactCurrentOwner	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var ReactCurrentOwner = require('.\/ReactCurrentOwner');$/;"	variable	line:18
+ReactElement	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var ReactElement = require('.\/ReactElement');$/;"	variable	line:19
+ReactErrorUtils	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var ReactErrorUtils = require('.\/ReactErrorUtils');$/;"	variable	line:20
+ReactInstanceMap	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var ReactInstanceMap = require('.\/ReactInstanceMap');$/;"	variable	line:21
+ReactInstrumentation	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var ReactInstrumentation = require('.\/ReactInstrumentation');$/;"	variable	line:22
+ReactNodeTypes	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var ReactNodeTypes = require('.\/ReactNodeTypes');$/;"	variable	line:23
+ReactPropTypeLocations	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var ReactPropTypeLocations = require('.\/ReactPropTypeLocations');$/;"	variable	line:24
+ReactReconciler	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var ReactReconciler = require('.\/ReactReconciler');$/;"	variable	line:25
+checkReactTypeSpec	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var checkReactTypeSpec = require('.\/checkReactTypeSpec');$/;"	variable	line:27
+emptyObject	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var emptyObject = require('fbjs\/lib\/emptyObject');$/;"	variable	line:28
+invariant	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var invariant = require('fbjs\/lib\/invariant');$/;"	variable	line:29
+shallowEqual	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var shallowEqual = require('fbjs\/lib\/shallowEqual');$/;"	variable	line:30
+shouldUpdateReactComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var shouldUpdateReactComponent = require('.\/shouldUpdateReactComponent');$/;"	variable	line:31
+warning	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var warning = require('fbjs\/lib\/warning');$/;"	variable	line:32
+CompositeTypes.ImpureClass	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var CompositeTypes = {$/;"	property	line:34
+CompositeTypes.PureClass	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  ImpureClass: 0,$/;"	property	line:35
+CompositeTypes.StatelessFunctional	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  PureClass: 1,$/;"	property	line:36
+StatelessComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^function StatelessComponent(Component) {}$/;"	function	line:40
+StatelessComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^function StatelessComponent(Component) {}$/;"	function	line:40
+render	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^StatelessComponent.prototype.render = function () {$/;"	function	line:41
+StatelessComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^function StatelessComponent(Component) {}$/;"	class	line:40
+StatelessComponent.render	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^StatelessComponent.prototype.render = function () {$/;"	method	line:41
+warnIfInvalidElement	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^function warnIfInvalidElement(Component, element) {$/;"	function	line:48
+warnIfInvalidElement	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^function warnIfInvalidElement(Component, element) {$/;"	function	line:48
+shouldConstruct	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^function shouldConstruct(Component) {$/;"	function	line:55
+shouldConstruct	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^function shouldConstruct(Component) {$/;"	function	line:55
+isPureComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^function isPureComponent(Component) {$/;"	function	line:59
+isPureComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^function isPureComponent(Component) {$/;"	function	line:59
+measureLifeCyclePerf	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^function measureLifeCyclePerf(fn, debugID, timerType) {$/;"	function	line:64
+measureLifeCyclePerf	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^function measureLifeCyclePerf(fn, debugID, timerType) {$/;"	function	line:64
+nextMountID	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var nextMountID = 1;$/;"	variable	line:113
+construct	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  construct: function (element) {$/;"	function	line:127
+ReactCompositeComponentMixin.construct	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var ReactCompositeComponentMixin = {$/;"	method	line:118
+mountComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  mountComponent: function (transaction, hostParent, hostContainerInfo, context) {$/;"	function	line:170
+ReactCompositeComponentMixin.mountComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:157
+measureLifeCyclePerf	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^          measureLifeCyclePerf(function () {$/;"	function	line:263
+_constructComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  _constructComponent: function (doConstruct, publicProps, publicContext, updateQueue) {$/;"	function	line:275
+ReactCompositeComponentMixin._constructComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:273
+_constructComponentWithoutOwner	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  _constructComponentWithoutOwner: function (doConstruct, publicProps, publicContext, updateQueue) {$/;"	function	line:288
+ReactCompositeComponentMixin._constructComponentWithoutOwner	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:286
+performInitialMountWithErrorHandling	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  performInitialMountWithErrorHandling: function (renderedElement, hostParent, hostContainerInfo, transaction, context) {$/;"	function	line:312
+ReactCompositeComponentMixin.performInitialMountWithErrorHandling	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:310
+performInitialMount	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  performInitialMount: function (renderedElement, hostParent, hostContainerInfo, transaction, context) {$/;"	function	line:336
+ReactCompositeComponentMixin.performInitialMount	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:334
+measureLifeCyclePerf	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^        measureLifeCyclePerf(function () {$/;"	function	line:346
+getHostNode	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  getHostNode: function () {$/;"	function	line:382
+ReactCompositeComponentMixin.getHostNode	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:380
+unmountComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  unmountComponent: function (safely) {$/;"	function	line:392
+ReactCompositeComponentMixin.unmountComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:384
+measureLifeCyclePerf	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^          measureLifeCyclePerf(function () {$/;"	function	line:407
+_maskContext	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  _maskContext: function (context) {$/;"	function	line:458
+ReactCompositeComponentMixin._maskContext	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:448
+_processContext	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  _processContext: function (context) {$/;"	function	line:479
+ReactCompositeComponentMixin._processContext	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:469
+_processChildContext	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  _processChildContext: function (currentContext) {$/;"	function	line:495
+ReactCompositeComponentMixin._processChildContext	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:488
+_checkContextTypes	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  _checkContextTypes: function (typeSpecs, values, location) {$/;"	function	line:534
+ReactCompositeComponentMixin._checkContextTypes	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:524
+receiveComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  receiveComponent: function (nextElement, transaction, nextContext) {$/;"	function	line:538
+ReactCompositeComponentMixin.receiveComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:536
+performUpdateIfNecessary	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  performUpdateIfNecessary: function (transaction) {$/;"	function	line:554
+ReactCompositeComponentMixin.performUpdateIfNecessary	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:545
+updateComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  updateComponent: function (transaction, prevParentElement, nextParentElement, prevUnmaskedContext, nextUnmaskedContext) {$/;"	function	line:579
+ReactCompositeComponentMixin.updateComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:562
+measureLifeCyclePerf	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^        measureLifeCyclePerf(function () {$/;"	function	line:607
+_processPendingState	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  _processPendingState: function (props, context) {$/;"	function	line:654
+ReactCompositeComponentMixin._processPendingState	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:652
+_performComponentUpdate	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  _performComponentUpdate: function (nextElement, nextProps, nextState, nextContext, transaction, unmaskedContext) {$/;"	function	line:690
+ReactCompositeComponentMixin._performComponentUpdate	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:676
+measureLifeCyclePerf	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^        measureLifeCyclePerf(function () {$/;"	function	line:707
+_updateRenderedComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  _updateRenderedComponent: function (transaction, context) {$/;"	function	line:740
+ReactCompositeComponentMixin._updateRenderedComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:732
+_replaceNodeWithMarkup	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  _replaceNodeWithMarkup: function (oldHostNode, nextMarkup, prevInstance) {$/;"	function	line:780
+ReactCompositeComponentMixin._replaceNodeWithMarkup	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:773
+_renderValidatedComponentWithoutOwnerOrContext	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  _renderValidatedComponentWithoutOwnerOrContext: function () {$/;"	function	line:787
+ReactCompositeComponentMixin._renderValidatedComponentWithoutOwnerOrContext	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:782
+_renderValidatedComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  _renderValidatedComponent: function () {$/;"	function	line:814
+ReactCompositeComponentMixin._renderValidatedComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:809
+attachRef	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  attachRef: function (ref, component) {$/;"	function	line:841
+ReactCompositeComponentMixin.attachRef	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:831
+detachRef	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  detachRef: function (ref) {$/;"	function	line:860
+ReactCompositeComponentMixin.detachRef	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:851
+getName	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  getName: function () {$/;"	function	line:871
+ReactCompositeComponentMixin.getName	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:863
+getPublicInstance	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  getPublicInstance: function () {$/;"	function	line:885
+ReactCompositeComponentMixin.getPublicInstance	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	method	line:875
+ReactCompositeComponentMixin._instantiateReactComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^  },$/;"	property	line:891
+ReactCompositeComponent.Mixin	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactCompositeComponent.js	/^var ReactCompositeComponent = {$/;"	property	line:898
+booksReducer	/Users/gaotianyi/showcase/ebook/reducers/list.js	/^function booksReducer(state = initialState, action) {$/;"	function	line:3
+switch	/Users/gaotianyi/showcase/ebook/reducers/list.js	/^    switch(action.UPDATE) {$/;"	function	line:4
+booksReducer	/Users/gaotianyi/showcase/ebook/reducers/list.js	/^function booksReducer(state = initialState, action) {$/;"	function	line:3
+ReactRef	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^var ReactRef = require('.\/ReactRef');$/;"	variable	line:14
+ReactInstrumentation	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^var ReactInstrumentation = require('.\/ReactInstrumentation');$/;"	variable	line:15
+warning	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^var warning = require('fbjs\/lib\/warning');$/;"	variable	line:17
+attachRefs	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^function attachRefs() {$/;"	function	line:23
+attachRefs	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^function attachRefs() {$/;"	function	line:23
+mountComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^  mountComponent: function (internalInstance, transaction, hostParent, hostContainerInfo, context, parentDebugID \/\/ 0 in production and for roots$/;"	function	line:40
+ReactReconciler.mountComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^var ReactReconciler = {$/;"	method	line:27
+getHostNode	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^  getHostNode: function (internalInstance) {$/;"	function	line:63
+ReactReconciler.getHostNode	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^  },$/;"	method	line:57
+unmountComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^  unmountComponent: function (internalInstance, safely) {$/;"	function	line:73
+ReactReconciler.unmountComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^  },$/;"	method	line:65
+receiveComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^  receiveComponent: function (internalInstance, nextElement, transaction, context) {$/;"	function	line:97
+ReactReconciler.receiveComponent	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^  },$/;"	method	line:86
+performUpdateIfNecessary	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^  performUpdateIfNecessary: function (internalInstance, transaction, updateBatchNumber) {$/;"	function	line:146
+ReactReconciler.performUpdateIfNecessary	/Users/gaotianyi/showcase/ebook/node_modules/react/lib/ReactReconciler.js	/^  },$/;"	method	line:137
+render	/Users/gaotianyi/showcase/ebook/index.ios.js	/^    render() {$/;"	function	line:19
+updateBooks	/Users/gaotianyi/showcase/ebook/actions/index.js	/^function updateBooks (data) {$/;"	function	line:1
+updateBooks	/Users/gaotianyi/showcase/ebook/actions/index.js	/^function updateBooks (data) {$/;"	function	line:1
+fetchBooks	/Users/gaotianyi/showcase/ebook/actions/index.js	/^export function fetchBooks(articleId) {$/;"	function	line:8
+constructor	/Users/gaotianyi/showcase/ebook/pages/ios/list.js	/^    constructor(props) {$/;"	function	line:15
+state.dataSource	/Users/gaotianyi/showcase/ebook/pages/ios/list.js	/^        this.state = {$/;"	property	line:20
+componentWillMount	/Users/gaotianyi/showcase/ebook/pages/ios/list.js	/^    componentWillMount() {$/;"	function	line:25
+renderList	/Users/gaotianyi/showcase/ebook/pages/ios/list.js	/^    renderList(rowData) {$/;"	function	line:28
+render	/Users/gaotianyi/showcase/ebook/pages/ios/list.js	/^    render() {$/;"	function	line:31
+stateMapToProps	/Users/gaotianyi/showcase/ebook/pages/ios/list.js	/^function stateMapToProps(state) {$/;"	function	line:106
+stateMapToProps	/Users/gaotianyi/showcase/ebook/pages/ios/list.js	/^function stateMapToProps(state) {$/;"	function	line:106
+booksReducer	/Users/gaotianyi/showcase/ebook/reducers/books.js	/^function booksReducer(state = initialState, action) {$/;"	function	line:3
+switch	/Users/gaotianyi/showcase/ebook/reducers/books.js	/^    switch(action.type) {$/;"	function	line:4
+booksReducer	/Users/gaotianyi/showcase/ebook/reducers/books.js	/^function booksReducer(state = initialState, action) {$/;"	function	line:3
+componentWillMount	/Users/gaotianyi/showcase/ebook/pages/index.js	/^    componentWillMount() {$/;"	function	line:15
+renderList	/Users/gaotianyi/showcase/ebook/pages/index.js	/^    renderList(rowData) {$/;"	function	line:18
+render	/Users/gaotianyi/showcase/ebook/pages/index.js	/^    render() {$/;"	function	line:21
+stateMapToProps	/Users/gaotianyi/showcase/ebook/pages/index.js	/^function stateMapToProps(state) {$/;"	function	line:102
+stateMapToProps	/Users/gaotianyi/showcase/ebook/pages/index.js	/^function stateMapToProps(state) {$/;"	function	line:102
