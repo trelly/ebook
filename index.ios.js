@@ -4,52 +4,25 @@
  * @flow
  */
 
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+import React, {Component} from 'react';
+import {AppRegistry, StyleSheet, Text, ListView, View} from 'react-native';
+import {fetchBooks} from './actions';
+import {Provider} from 'react-redux';
+import {applyMiddleware, createStore} from 'redux';
+import reducer from './reducers/';
+import BookList from './pages/'
+
+const store = createStore(reducer);
 
 class ebook extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          ebook
-        </Text>
-        <Text style={styles.instructions}>
-          小数阅读器，侧边栏
-        </Text>
-        <ListView>
-          <Text>一行文本</Text>
-        </ListView>
-      </View>
-    );
-  }
-}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-    paddingTop: 10,
-    position: 'relative',
-    top: 10
-  },
-});
+    render() {
+        return (
+            <Provider store={store}>
+                <BookList />
+            </Provider>
+        );
+    }
+}
 
 AppRegistry.registerComponent('ebook', () => ebook);
