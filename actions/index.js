@@ -1,6 +1,5 @@
 import {AlertIOS} from 'react-native';
 function updateBooks(data) {
-    AlertIOS.alert('a'+data.length)
     return {
         type: 'UPDATEBOOKS',
         data: data
@@ -8,11 +7,10 @@ function updateBooks(data) {
 }
 
 export function fetchBooks() {
-    AlertIOS.alert('safsd');
     return function(dispatch) {
-        return fetch('http://toutiao.com/novel_channel/get_category_book_info/?category=%E6%8E%A8%E8%8D%90&index=0', {
-            credentials: 'include'
-        }).then(response => response.json()).then(json =>dispatch(updateBooks(json)));
+        return fetch('https://toutiao.com/novel_channel/get_category_book_info/?category=%E5%A5%87%E5%B9%BB%E7%8E%84%E5%B9%BB&index=0').then(response => response.json()).then(function (json) {
+          dispatch(updateBooks(json));
+        });
     };
 }
 

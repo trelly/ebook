@@ -5,7 +5,7 @@
  */
 
 import React, {Component} from 'react';
-import {AppRegistry, StyleSheet, Text, ListView, View} from 'react-native';
+import {AppRegistry, StyleSheet, Text, Image, ListView, View, TouchableHighlight} from 'react-native';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import actions from '../actions';
@@ -16,7 +16,18 @@ class BookList extends Component {
         this.props.actions.fetchBooks();
     }
     renderList(rowData) {
-        return <Text>{rowData.BookName}</Text>
+        return <TouchableHighlight>
+                <View style={styles.bookCard}>
+                  <Image source={{uri: rowData.ThumbUrl}} style={{width: 105, height: 140}} />
+                  <View style={styles.info}>
+                    <Text style={styles.bookName}>{rowData.BookName}</Text>
+                    <View style={styles.bookDesc}>
+                      <Text ellipsizeMode="tail" style={{width: 240, color: 'gray'}} numberOfLines={5}>{rowData.Abstract}</Text>
+                    </View>
+                    <Text style={styles.bookInfo}>{rowData.BookName}&nbsp;{rowData.Category}&nbsp;{rowData.ClickRate}人在读</Text>
+                  </View>
+               </View>
+             </TouchableHighlight>
     }
     render() {
         let {books} = this.props;
@@ -54,15 +65,16 @@ const styles = StyleSheet.create({
         backgroundColor: '#F5FCFF'
     },
     main: {
-        flex: 1,
-        backgroundColor: 'green'
+        flex: 1
     },
     nav: {},
     toolbar: {
         flex: 1,
         flexDirection: 'row',
         alignItems: 'stretch',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        borderTopWidth: 1,
+        borderTopColor: '#999'
     },
     item: {
         flex: 1,
@@ -71,7 +83,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     type: {
-        color: 'green',
         height: 50,
         lineHeight: 50
     },
@@ -94,6 +105,37 @@ const styles = StyleSheet.create({
         paddingTop: 10,
         position: 'relative',
         top: 10
+    },
+    bookCard: {
+        flex: 1,
+        flexDirection: 'row',
+        marginLeft: 10,
+        marginRight: 10,
+        paddingTop: 10,
+        paddingBottom: 10,
+        borderBottomWidth: 1,
+        borderBottomColor: '#f4f5f6'
+    },
+    info: {
+        paddingLeft: 10,
+        flex: 1
+    },
+    bookName: {
+        fontSize: 18
+    },
+    bookDesc: {
+        flex:1,
+        marginTop: 10,
+        flexDirection: 'row',
+        flexWrap: 'wrap'
+    },
+    wrap: {
+        flex: 1,
+        flexWrap: 'wrap'
+    },
+    bookInfo: {
+        fontSize: 12,
+        color: '#999'
     }
 });
 
